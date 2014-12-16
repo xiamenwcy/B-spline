@@ -1,0 +1,6 @@
+setwd("C:/Users/asus/Desktop/splinefitting/splinefitting/model")
+s<-read.csv("a.csv")
+l<-apply(s,1,mean)
+s<-cbind(s,l)
+max(l)
+min(l)
